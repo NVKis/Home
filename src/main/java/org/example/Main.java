@@ -25,52 +25,6 @@ public class Main {
 
 
 
-       /* List<Animal> array = new ArrayList<>();
-        // array.add(new Cat(""));
-        AnimalFactory animalFactory = new AnimalFactory();
-        try {
-            array.add(animalFactory.create(AnimalData.CAT));
-        } catch (AnimalNotSupported e) {
-            e.printStackTrace();
-        }
-
-        for (Animal animal : array) {
-            System.out.println(animal.toString());
-        }
-             /////////////////////////////////////// */
-//
-//        AnimalTable animalsTable = new AnimalTable();
-//        ArrayList<Animals> animalss = animalsTable.selectAll();
-//        if (animalss.isEmpty()) {
-//            animalsTable.insert(new Animals("кошка", "Барсик", "Белый", 12, 5));
-//            animalsTable.insert(new Animals("собака", "Тузик", "Черный", 15, 4));
-//            animalsTable.insert(new Animals("утка", "Утя", "Желтый", 3, 3));
-//            animalss = animalsTable.selectAll();
-//        }
-//
-//        for (Animals tmp : animalss) {
-//            System.out.println(tmp.toString());
-//        }
-
-
-
-
-
-////////////////////////////////////////////////////////////////////////////////
-
-//        Cat vasy =new Cat("vasy",10,10, ColorData.WHITE);
-//        System.out.println(vasy.toString()+"\n Я кот");
-//        vasy.say();10
-//
-//        Dog gav = new Dog("gav", 4, 15, ColorData.WHITE);
-//        System.out.println(gav.toString()+"\n Я собака");
-//        gav.say();
-//
-//        Duck donald = new Duck("donald", 2,5, ColorData.WHITE);
-//        System.out.println(donald.toString()+"\n Я утёнок");
-//        donald.say();
-/////////////////////////////////////////////////////////////////////////////////////////////
-
         //пропишем команду сканер для ввода данных в консоле
         Scanner scanner = new Scanner(System.in);
         Validators validators = new Validators();
