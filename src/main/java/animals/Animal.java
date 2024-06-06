@@ -155,22 +155,22 @@ public abstract class Animal{
     private String getPage1() {
         int ostatok = age % 10;
 
-        if(ostatok==1) {
+        if(age >= 11 && age <= 14) {
+            return "лет";
+        }
+
+        if(ostatok == 1) {
             return "год";
         }
 
+        if(ostatok >= 5) {
+            return "лет";
+        }
 
-        if(ostatok >=2 & ostatok <5) {
+        if(ostatok >= 2) {
             return "года";
         }
 
-        if(ostatok >=5) {
-            return "лет";
-        }
-
-        if(age >=11 && age <=14) {
-            return "лет";
-        }
 
         return "лет";
     }
