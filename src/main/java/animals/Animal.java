@@ -147,8 +147,6 @@ public abstract class Animal{
                 this.getPage1(),
                 weight,
                 colorData.getName());
-
-
     }
 
     // опишем метод "Падежа" подстановки в шаблон слов: лет, год/года
@@ -174,7 +172,4 @@ public abstract class Animal{
 
         return "лет";
     }
-
-
-
 }
